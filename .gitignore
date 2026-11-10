@@ -1,0 +1,32 @@
+# Python / uv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.python-version.bak
+dist/
+build/
+*.egg-info/
+
+# Environment & Local Data
+.env
+.env.local
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Caches & Logs
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
